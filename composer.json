@@ -1,0 +1,39 @@
+{
+    "name":"robertblackwell/wa_comvert",
+    "description": "Database conversion utility for whiteacorn website",
+    "keywords": ["trace", "php", "debug"],
+    "type": "library",
+    "homepage": "https://github.com/robertblackwell/wa_convert",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robert Blackwell",
+            "homepage": "https://github.com/robertblackwell"
+        }
+    ],
+    
+    "repositories": [
+        {"type": "git","url": "/Users/rob/git-repos/database-package"},
+        {"type": "vcs","url": "/Users/rob/git-repos/gps"},
+        {"type": "vcs","url": "/Users/rob/git-repos/trace"},
+        {"type": "vcs","url": "/Users/rob/git-repos/gallery"},
+        {"type": "vcs","url": "/Users/rob/git-repos/litetest"}
+    ],
+    
+    "require":{
+        "symfony/console" : "@dev",
+        "symfony/finder" : "@dev",
+        "robertblackwell/database-package":"dev-properties",
+        "robertblackwell/gpscoordinates":"@dev",
+        "robertblackwell/gallery":"@dev",
+        "robertblackwell/trace":"@dev"
+    },
+    "require-dev":{
+		"robertblackwell/litetest":"dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+        },
+        "classmap":["src/WaConvert", "src/steals", "src/"]
+    }
+}
