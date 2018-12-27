@@ -1,6 +1,6 @@
 <?php
 // app/console
-require dirname(dirname(__FILE__))."/vendor/autoload.php";
+// require dirname(dirname(__FILE__))."/vendor/autoload.php";
 
 use Symfony\Component\Console\Application;
 use Symfony\Component\Console\Command\Command;
