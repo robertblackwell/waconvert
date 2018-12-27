@@ -3,6 +3,7 @@
     "description": "Database conversion utility for whiteacorn website",
     "keywords": ["trace", "php", "debug"],
     "type": "library",
+    "bin" : ["bin/waconvert.php"],
     "homepage": "https://github.com/robertblackwell/waconvert",
     "license": "MIT",
     "authors": [
