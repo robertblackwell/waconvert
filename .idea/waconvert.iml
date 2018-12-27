@@ -7,14 +7,12 @@
     <orderEntry type="module-library">
       <library name="PHARS">
         <CLASSES>
-          <root url="phar://$MODULE_DIR$/build/waconvert.phar/" />
-          <root url="phar://$MODULE_DIR$/vendor/bin/litetest.phar/" />
           <root url="phar://$MODULE_DIR$/vendor/robertblackwell/litetest/build/litetest.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/bin/litetest.phar/" />
         </CLASSES>
         <SOURCES>
-          <root url="phar://$MODULE_DIR$/build/waconvert.phar/" />
-          <root url="phar://$MODULE_DIR$/vendor/bin/litetest.phar/" />
           <root url="phar://$MODULE_DIR$/vendor/robertblackwell/litetest/build/litetest.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/bin/litetest.phar/" />
         </SOURCES>
       </library>
     </orderEntry>
