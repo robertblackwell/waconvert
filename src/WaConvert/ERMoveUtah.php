@@ -46,7 +46,7 @@ class ERMoveUtah
 
 		// copy entries into content so as to get all files
 		if ($dryrun) {
-			$this->config->putput->writeln("cp -r {$utah_entries_dir}/ {$utah_content_dir}");
+			$this->config->output->writeln("cp -r {$utah_entries_dir}/ {$utah_content_dir}");
 		} else {
 			system("cp -r {$utah_entries_dir}/ {$utah_content_dir}");
 		}

@@ -14,11 +14,11 @@
     ],
     
     "repositories": [
-        {"type": "git","url": "/Users/rob/git-repos/database-package"},
-        {"type": "vcs","url": "/Users/rob/git-repos/gps"},
-        {"type": "vcs","url": "/Users/rob/git-repos/trace"},
-        {"type": "vcs","url": "/Users/rob/git-repos/gallery"},
-        {"type": "vcs","url": "/Users/rob/git-repos/litetest"}
+        {"type": "vcs","url": "/Users/robertblackwell/git-repos/database-package"},
+        {"type": "vcs","url": "/Users/robertblackwell/git-repos/gps"},
+        {"type": "vcs","url": "/Users/robertblackwell/git-repos/trace"},
+        {"type": "vcs","url": "/Users/robertblackwell/git-repos/gallery"},
+        {"type": "vcs","url": "/Users/robertblackwell/git-repos/litetest"}
     ],
     
     "require":{

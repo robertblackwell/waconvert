@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6440eff1-7eee-4d04-a261-2874d5e43f6c" name="Default" comment="" />
+    <list default="true" id="6440eff1-7eee-4d04-a261-2874d5e43f6c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+    </list>
     <ignored path="waconvert.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -28,7 +30,7 @@
             <state vertical-scroll-proportion="-9.375">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <element signature="e#81#123#0#PHP" expanded="true" />
+                <element signature="e#84#126#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,8 +39,8 @@
       <file leaf-file-name="waconvert.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/waconvert.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state vertical-scroll-proportion="-9.375">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -212,7 +214,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2304" height="1193" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -269,7 +271,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/Main.php</url>
-          <line>2</line>
+          <line>3</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
@@ -283,7 +285,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#81#123#0#PHP" expanded="true" />
+            <element signature="e#84#126#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -317,7 +319,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#81#123#0#PHP" expanded="true" />
+            <element signature="e#84#126#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -351,7 +353,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#81#123#0#PHP" expanded="true" />
+            <element signature="e#84#126#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -385,15 +387,15 @@
         <state vertical-scroll-proportion="-9.375">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#81#123#0#PHP" expanded="true" />
+            <element signature="e#84#126#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/waconvert.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state vertical-scroll-proportion="-9.375">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding />
         </state>
       </provider>
