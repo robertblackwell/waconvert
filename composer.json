@@ -1,9 +1,9 @@
 {
-    "name":"robertblackwell/wa_comvert",
+    "name":"robertblackwell/waconvert",
     "description": "Database conversion utility for whiteacorn website",
     "keywords": ["trace", "php", "debug"],
     "type": "library",
-    "homepage": "https://github.com/robertblackwell/wa_convert",
+    "homepage": "https://github.com/robertblackwell/waconvert",
     "license": "MIT",
     "authors": [
         {
