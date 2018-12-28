@@ -30,11 +30,12 @@ class TheAmericasCopyOx11Entries
 		// lets put the converted file into "ox-11/content"
 		$output_dir = $locator->content_root("theamericas");
 
-		$ox11_entries = $locator->entries_root("ox-11");
+		$ox11_journal_entries = $ox11_entries = $locator->entries_root("ox-11");
 		$ox11_content = $locator->content_root("ox-11");
 
 		$theamericas_content = $locator->content_root("theamericas");
-
+		$theamericas_journal_entries = $locator->entries_root("theamericas");
+		
 		if (! file_exists($ox11_content)) {
 			mkdir($ox11_content, 0777, true);
 		}
@@ -47,6 +48,7 @@ class TheAmericasCopyOx11Entries
 		$converter->convert("ox-11", "theamericas", $ox11_content);
 		// now copy to theamericas trip
 		system("cp -r {$ox11_content}/* {$theamericas_content}");
+		system("cp -r {$ox11_journal_entries}/11*" {$theamericas_journal_entries});
 		// note that at this point the converted entries do not have a vehicle div
 	}
 }

@@ -68,6 +68,7 @@ class Converter
 		(new TheAmericasUpdate($config))->convert();
 		(new RtwAddVehicle($config))->convert();
 		(new IndiaAfrica($config))->convert();
+		(new TigerRebuildGallery)->convert();
 		$dm->cleanup();
 	}
 }
